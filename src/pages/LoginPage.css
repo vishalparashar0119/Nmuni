@@ -1,0 +1,227 @@
+.main__div {
+    background-color: #1b263b;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+
+.main__div__1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #1565C0;
+    font-size: 54px;
+}
+
+.main__div__1 {
+    background-color: #1b263b;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__div__2 {
+    background-color: #ADB5BD;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.main__div__2 form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top: 100px;
+    align-items: center;
+    width: auto;
+    position: relative;
+    height: auto;
+
+}
+
+.form__input {
+    height: 45px;
+    width: 60vh;
+    border-radius: 44px;
+    margin: 20px 0px 20px 0px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0px 10px 0px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+
+}
+
+#submit {
+    width: 20vh;
+    border-radius: 40px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b263b;
+    font-weight: 300;
+    color: #1565C0;
+}
+
+#label__1 {
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+#label__2 {
+    position: absolute;
+    left: 15px;
+    top: 180px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.google__signup {
+
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.google__signup div {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.google__signup div hr {
+    background-color: black !important;
+    width: 40%;
+    font-size: 10px;
+    height: 0.5px;
+    position: relative;
+    top: 9px;
+    border: none;
+
+
+
+}
+
+.google__signup img {
+    width: 50px !important;
+    height: 50px !important;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin: 50px auto 0px auto;
+    cursor: pointer;
+
+
+}
+.signup__div{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 180px;
+    position: absolute;
+    left: -150px;
+    bottom: 65px;
+  
+}
+.signup__div p span{
+    font-size: 16px;
+    color: #1565C0;
+}
+
+/* media quarry for login page*/
+
+@media only screen and (max-width : 600px) {
+
+    .main__div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main__div__2 {
+
+        width: 80%;
+        height: auto;
+        display: flex;
+        margin: -45px auto 0px auto;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 45px;
+
+    }
+
+    .main__div__2 form {
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        height: auto;
+
+    }
+
+    .form__input {
+        height: 45px;
+        width: 90%;
+        border-radius: 44px;
+        margin: 20px 0px 20px 0px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        padding: 0px 10px 0px 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+
+    }
+
+    #label__1 {
+
+        top: 60px;
+
+    }
+
+    #label__2 {
+        top: 150px;
+    }
+    .google__signup img{
+        margin: 25px auto 25px auto;
+    }
+    .main__div__1{
+        padding: 30px 0px 70px 0px;
+    }
+    .signup__div{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        position: absolute;
+        left: -10px;
+        bottom: 10px;
+      
+    }
+
+}
